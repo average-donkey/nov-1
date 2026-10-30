@@ -1,0 +1,1 @@
+Place your preferred Shinchan sticker image here (e.g. shinchan.png). See the main README.md for how to swap the placeholder.

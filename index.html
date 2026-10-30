@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8e8f2">
+  <title>random ahh website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sky-noise" aria-hidden="true"></div>
+  <div class="cloud cloud-one" aria-hidden="true"></div>
+  <div class="cloud cloud-two" aria-hidden="true"></div>
+  <div class="cloud cloud-three" aria-hidden="true"></div>
+  <div class="starfield" id="starfield" aria-hidden="true"></div>
+
+  <!-- Opening dreamworld -->
+  <section class="intro" id="intro" aria-label="codeeee">
+    <div class="intro-inner">
+      <p class="eyebrow">such a goated coder am i, no?</p>
+      <p class="intro-whisper">also physics is soo cooll</p>
+      <div class="intro-moon" aria-hidden="true">☾</div>
+      <h1 class="intro-title">welcome to<br><span> this random thing is created for ya</span></h1>
+      <button class="primary-button" id="enterButton">Look in?</button>
+    </div>
+    <span class="intro-bow bow-a" aria-hidden="true">୨୧</span>
+    <span class="intro-bow bow-b" aria-hidden="true">✧</span>
+    <span class="intro-bow bow-c" aria-hidden="true">♡</span>
+  </section>
+
+  <header class="site-header">
+    <a class="wordmark" href="#" data-go="greeting" aria-label="Return to greeting">Rainbows and sunshines <span>୨୧</span></a>
+    <div class="header-right">
+      <span class="tiny-date" id="todayLabel"></span>
+      <button class="music-toggle" id="sparkleButton" aria-label="Make some sparkles">glitter go brrr</button>
+    </div>
+  </header>
+
+  <main class="app-shell" id="appShell" hidden>
+    <nav class="step-nav" aria-label="Website pages">
+      <button class="step active" data-go="greeting"><span>01</span> hello</button>
+      <button class="step" data-go="countdown"><span>02</span> the countdown</button>
+      <button class="step" data-go="letter"><span>03</span>za random letter</button>
+    </nav>
+
+    <!-- PAGE 1 -->
+    <section class="page active" id="greeting" aria-labelledby="greetingTitle">
+      <div class="page-kicker">something i created when i realy should be studying maths</div>
+      <div class="greeting-layout">
+        <aside class="collage-side left-collage" aria-label="Decorations">
+          <div class="sticker note-sticker tilt-left">a reminder<br>you're pretty<br>cool actually</div>
+          <button class="decor-button star-sticker" data-surprise="star" aria-label="Tap the little star">✦</button>
+          <div class="polaroid mini-polaroid tilt-right">
+            <div class="polaroid-art">☁️<br>☁️</div>
+            <span>head in the clouds</span>
+          </div>
+        </aside>
+
+        <article class="letter-card greeting-card">
+          <div class="card-topline"><span>I could sell stuff like this and get rich</span><span>№ 01</span></div>
+          <span class="corner-bow" aria-hidden="true">୨୧</span>
+          <div class="tiny-sparkles" aria-hidden="true">✧ · ˚ ⋆</div>
+          <p class="handwritten hello-script">hiii</p>
+          <h1 id="greetingTitle">A little something?<br>of <em>idk what to write</em>.</h1>
+          <div class="divider"><span>♡</span></div>
+          <!-- EDIT YOUR GREETING in script.js: SITE_CONTENT.greeting -->
+          <p class="editable-copy" id="greetingCopy"></p>
+          <p class="signature">only if maths got this amount of effort <span>୨୧</span></p>
+          <button class="text-link" data-go="countdown"> countdown? <span>↗</span></button>
+        </article>
+
+        
+<aside class="collage-side right-collage" aria-label="Decorations">
+  <div class="tape tape-one"></div>
+  <div class="sticker bubble-sticker tilt-right">padhle<br><br></div>
+  <div class="cloud-doodle">☁︎</div>
+
+  <div class="shinchan-slot" id="shinchanSlot" title="Shinchan cameo slot">
+    <img class="shinchan-image" src="assets/shinchan.png" alt="Shinchan sticker">
+    <span class="sticker-caption">easter egg</span>
+  </div>
+
+  <button class="secret-button ordinary-secret" id="ordinarySecret"><span class="secret-icon">✧</span> psst… </button>
+</aside>
+
+      </div>
+      <div class="page-bottom-note">i should really focus on maths tho</div>
+    </section>
+
+    <!-- PAGE 2 -->
+    <section class="page" id="countdown" aria-labelledby="countdownTitle">
+      <div class="page-kicker">fun fact- 20 nov is world's children day</div>
+      <div class="countdown-layout">
+        <div class="countdown-intro">
+          <p class="handwritten hello-script">also it's getting closer…</p>
+          <h1 id="countdownTitle">The countdown to<br><em>Your B-Day</em></h1>
+          <p class="subcopy">i dedicated too much time for this nonsense no?</p>
+          <div class="countdown-glass">
+            <div class="countdown-heading"><span>TIME UNTIL YOUR DAY</span><span class="live-dot">LIVE</span></div>
+            <div class="time-grid" aria-live="polite">
+              <div class="time-unit"><strong id="days">000</strong><span>days</span></div>
+              <i>:</i>
+              <div class="time-unit"><strong id="hours">00</strong><span>hours</span></div>
+              <i>:</i>
+              <div class="time-unit"><strong id="minutes">00</strong><span>minutes</span></div>
+              <i>:</i>
+              <div class="time-unit"><strong id="seconds">00</strong><span>seconds</span></div>
+            </div>
+            <p class="timezone-note">counting in India Standard Time · UTC +05:30</p>
+          </div>
+          <button class="text-link" data-go="letter">there's a letter too (not love letter chil) <span>↗</span></button>
+        </div>
+
+        <div class="calendar-cloud-wrap">
+          <div class="calendar-cloud" aria-label="November calendar">
+            <div class="calendar-top"><span>little cloud calendar</span><span>♡</span></div>
+            <h2 id="calendarMonth">NOVEMBER 2026</h2>
+            <div class="calendar-grid calendar-weekdays">
+              <span>S</span><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span>
+            </div>
+            <div class="calendar-grid" id="calendarDays"></div>
+            <div class="calendar-footer"><span class="ribbon-mark">୨୧</span><span>the 20th is the important bit</span></div>
+          </div>
+          <button class="calendar-note" id="calendarNote">y</button>
+         
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 3 -->
+    <section class="page" id="letter" aria-labelledby="letterTitle">
+      <div class="page-kicker">physics soo coollll</div>
+      <div class="message-layout">
+        <div class="message-decor">
+          <div class="decor-orbit">✧<span>♡</span>✧</div>
+          <p class="handwritten">open when<br>you're ready</p>
+          <div class="message-cloud">☁︎</div>
+          <div class="tiny-label">FILED UNDER:<br>Imp stuff??</div>
+        </div>
+        <div class="envelope-scene">
+          <button class="envelope" id="openLetter" aria-expanded="false" aria-controls="personalLetter">
+            <span class="envelope-back"></span>
+            <span class="envelope-paper"><span>there's a note for you…</span></span>
+            <span class="envelope-flap"></span>
+            <span class="envelope-seal">୨୧</span>
+            <span class="envelope-front"></span>
+          </button>
+          <p class="envelope-hint" id="envelopeHint">tap the envelope to open it </p>
+          <article class="personal-letter" id="personalLetter" hidden>
+            <div class="letter-top"><span>JUST BETWEEN US (AND THIS WEBSITE)</span><span>♡</span></div>
+            <h1 id="letterTitle"> <em></em>.</h1>
+            <!-- EDIT YOUR PERSONAL MESSAGE in script.js: SITE_CONTENT.message -->
+            <div class="editable-copy message-copy" id="messageCopy"></div>
+            <p class="signature">just an average donkey <span>୨୧</span></p>
+            <button class="text-link" data-go="greeting">back to the page 1 <span>↗</span></button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <span>handmade btw</span>
+      <span>01 / 19 </span>
+    </footer>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="birthday-banner" id="birthdayBanner" hidden>
+    <span class="birthday-sparkle">✧</span>
+    <div><strong>IT'S YOUR BIRTHDAY, PALAK!!</strong><span>the whole calendar knew you were iconic.</span></div>
+    <button id="birthdaySecret" class="birthday-secret">okay, one more thing… ✨</button>
+    <button class="banner-close" id="closeBirthday" aria-label="Close birthday banner">×</button>
+  </div>
+  <div class="birthday-confetti" id="birthdayConfetti" aria-hidden="true"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
