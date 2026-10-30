@@ -165,10 +165,10 @@ $('#calendarNote').addEventListener('click', () => showToast('NOVEMBER 20: a ver
 $$('[data-surprise="star"]').forEach(button => button.addEventListener('click', () => showToast('You found the tiny star! Your side quest reward: one emoji cloud☁️☁️☁️☁️ and 3 bonus sparkles. ✦')));
 $('#ordinarySecret').addEventListener('click', () => {
   const messages = [
-    'SECRET FOUND ✧ Official reminder: you are allowed to have a good day for absolutely no reason.',
-    'A tiny notification from the cloud department: Palak is, objectively, a pretty excellent human. ☁',
-    'Achievement unlocked: you clicked a suspicious button. Prize: this very serious virtual sticker → ♡',
-    'SHINCHAN’S SECRET REPORT: today’s forecast is 78% chance of nonsense and 100% permission to be yourself. ✦'
+    'Official reminder: you are not allowed to have a good day for absolutely no reason.',
+    'Keep slayinnn btwww',
+    'You clicked  a random button....; real smart move bro',
+    'Never stop being yourself'
   ];
   const next = (Number(sessionStorage.getItem('secretIndex') || 0)) % messages.length;
   sessionStorage.setItem('secretIndex', String(next + 1));
